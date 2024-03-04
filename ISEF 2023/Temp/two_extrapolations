@@ -1,0 +1,57 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+from scipy.interpolate import griddata
+import pandas as pd
+
+
+
+CATEGORY = "deltime"
+
+# Load the data from CSV files
+hubs_with = pd.read_csv("hubs_with.csv")
+hubs_without = pd.read_csv("hubs_without.csv")
+
+
+
+# Define the two datasets
+x1 = np.array(hubs_with["vh"])
+y1 = np.array(hubs_with["perdel"])
+z1 = np.array(hubs_with[CATEGORY])
+
+x2 = np.array(hubs_without["vh"])
+y2 = np.array(hubs_without["perdel"])
+z2 = np.array(hubs_without[CATEGORY])
+
+# Create a 3D plot of the two datasets
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(x1, y1, z1, c='r', marker='o')
+ax.scatter(x2, y2, z2, c='b', marker='^')
+
+# Define the extrapolation range
+xi = np.linspace(0, 1, 20)
+yi = np.linspace(0, 1, 20)
+zi = np.linspace(0, 1, 20)
+
+# Create a meshgrid from the extrapolation range
+XI, YI, ZI = np.meshgrid(xi, yi, zi)
+
+# Perform extrapolation on the first dataset
+Z1I = griddata((x1, y1, z1), z1, (XI, YI, ZI), method='linear')
+
+# Perform extrapolation on the second dataset
+Z2I = griddata((x2, y2, z2), z2, (XI, YI, ZI), method='linear')
+
+# Plot the extrapolations in the same 3D space
+ax.scatter(XI, YI, Z1I, c='r', marker='o', alpha=0.2)
+ax.scatter(XI, YI, Z2I, c='b', marker='^', alpha=0.2)
+
+# Set the plot title and axis labels
+ax.set_title('3D Extrapolation')
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+# Show the plot
+plt.show()

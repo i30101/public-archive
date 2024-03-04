@@ -1,0 +1,7 @@
+3. parking lot initializations
+
+buildings[1] = new Building(1, 160, 80, 18);
+
+lots[1] = new ParkingSpot(1, 0);
+
+links[1] =  new Link(1, 2, 2 );
