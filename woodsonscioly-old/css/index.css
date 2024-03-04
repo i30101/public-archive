@@ -1,0 +1,114 @@
+/* -------------------- INTRO -------------------- */
+#intro {
+    text-align: center;
+    background-color: black;
+}
+
+#canvas {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas-overlay {
+    padding: 0 !important;
+    color: white;
+    position: absolute;
+}
+
+#intro-subheading {
+    font-size: 25px;
+}
+
+#intro-heading {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+#intro-details {
+    font-size: 20px;
+}
+
+#intro-link, #intro-link:active {
+    padding: 15px;
+    border: 2px solid white;
+    transition: background-color 0.5s ease;
+    color: white;
+    text-decoration: none;
+}
+
+#intro-link:hover {
+    background-color: white !important;
+    color: black;
+}
+
+.small-br {
+    height: 10px;
+}
+
+.large-br {
+    height: 30px;
+}
+
+
+
+#main {
+    padding-top: 25px !important;
+}
+
+
+/* -------------------- WHAT IS SCIOLY -------------------- */
+
+#events-box {
+    background-image: linear-gradient(to bottom right, #60efff, #3f89ff);
+}
+
+#preparation-box {
+    background-image: linear-gradient(to bottom right, #ffa83e, #ff2d8c);
+}
+
+#competition-box {
+    background-image: linear-gradient(to bottom right, #57ebde, #aefb2a);
+}
+
+
+/* -------------------- WHY COMPETE -------------------- */
+#medals-box {
+    /* background-image: linear-gradient(to bottom right, #fff95b, #ff930f); */
+    background-image: linear-gradient(to bottom right, #60efff, #3f89ff);
+}
+
+#traveling-box {
+    /* background-image: linear-gradient(to bottom right, #40c9ff, #e81cff); */
+    background-image: linear-gradient(to bottom right, #ffa83e, #ff2d8c);
+}
+
+#fun-box {
+    /* background-image: linear-gradient(to bottom right, #e9b7ce, #d3f3f1); */
+    background-image: linear-gradient(to bottom right, #57ebde, #aefb2a);
+}
+
+.why-bullet {
+    margin-bottom: 10px !important;
+}
+
+
+/* -------------------- QUOTES -------------------- */
+.quote-box {
+    background-color: lightgray;
+    padding: 12px !important;
+}
+
+.quote-box:hover {
+    background-image: linear-gradient(to bottom right, #9bafd9, #4266af);
+}
+
+.quote-box-container {
+    margin: 0 !important;
+    padding: 0;
+}
+
+
+#first-quote-container {
+    margin-top: 10px !important;
+}

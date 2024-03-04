@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* -------------------- BIG NAVBAR STYLES -------------------- */
+#navbar-big {
+    padding: 35px 35px 35px 35px;
+
+    width: 200px;
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343434;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#navbar-big-main {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#navbar-big-icon {
+    margin-bottom: 20px;
+
+    width: 100%;
+
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(40deg);
+}
+
+.navbar-footer {
+    margin-top: calc(100vh - 530px);
+    
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.navbar-link-container {
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+.navbar-action-icon, .navbar-action-icon:active, .navbar-action-icon:hover {
+    margin-right: 10px;
+    font-size: 15px;
+    color: white !important;
+}
+
+#mail-icon {
+    position: relative;
+    top: 6px !important;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+
+
+
+/* -------------------- SMALL NAVBAR STYLES -------------------- */
+.navbar {
+    background-color: #343434;
+    padding: 12px !important;
+}
+
+#navbar-small-main, .nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+#toggler-icon {
+    color: white !important;
+    font-size: 30px;
+    border: none !important
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+#navbar-small-icon {
+    margin-right: 20px;
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    transform: rotate(40deg);
+}
+
+
+
+
+
+
+
+
+/* -------------------- MAIN BODY STYLES -------------------- */
+#main {
+    padding: 50px;
+}
+
+.main-image {
+    width: 600px;
+    margin: 10px 0;
+}
+
+.text-box {
+    margin-bottom: 60px !important;
+    padding: 5px;
+    font-size: 16px;
+}
+
+hr {
+    margin: 20px 0 20px 0 !important;
+}
+
+.body-icon {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    font-size: 60px !important;
+    text-align: center !important;
+}
+
+.document-space {
+    height: 100px;
+}
+
+
+
+
+
+
+/* -------------------- HEADINGS -------------------- */
+.main-heading {
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subheading {
+    margin-top: 0px;
+    padding: 10px;
+
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.subsubheading {
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+
+
+/* -------------------- BOX STYLES -------------------- */
+.bio-box {
+    margin-bottom: 50px;
+}
+
+.bio-image {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.bio-text-box {
+    margin-bottom: 10px;
+}
+
+.fancy-box-container {
+    margin: 10px 0 0 0 !important;
+    padding: 0;
+}
+
+.fancy-box {
+    padding: 20px !important;
+    border-radius: 8px;
+    margin-bottom: 40px !important;
+}
+
+
+
+/* -------------------- FOOTER STYLES -------------------- */
+#main-footer {
+    margin: 100px 0 0 0 !important;
+    padding: 50px 0 0 0  !important;
+}
+
+#footer-items {
+    padding: 0 !important;
+}
