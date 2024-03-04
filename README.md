@@ -30,23 +30,21 @@ Installing all PyPi dependencies: `pip install pandas numpy matplotlib ortools g
 <br><br>
 
 
-## cryptography
+## RiverSentinel
 ![version](https://img.shields.io/badge/release-v3.1.0-blue)
 ![python-versions](https://img.shields.io/badge/python-3.9_%7C_3.10_%7C_3.11-limegreen)
+![arduino](https://img.shields.io/static/v1?label=Arduino&message=v2.2.1&logo=arduino&logoColor=white&color=blue)
 
-OP Codebusters cipher generation tool able to create test questions for the following ciphers: 
-- Fractionated Morse
-- Complete Columnar Transposition
-- Columnar Transportation
-- Porta
-- Hill 2x2
-- Hill 3x3
-- Nihilist
+Files for RiverSentinel: a project to enhance water quality monitoring 
 
+### Components
+- RiverSentinel probe configuration software for Arduino and Python
+- Live water quality monitoring interface
 
 ### Depencencies
 - Python 3.9 or newer
-- PyPi `requests` library for quote generation: install with `pip install requests`
+- Arduino IDE
+- Raspberry Pi 4.0
 
 <br><br>
 
@@ -54,7 +52,6 @@ OP Codebusters cipher generation tool able to create test questions for the foll
 
 ## arduino
 ![version](https://img.shields.io/badge/release-v1.0.0-blue)
-![arduino](https://img.shields.io/static/v1?label=Arduino&message=v2.2.1&logo=arduino&logoColor=white&color=blue)
 
 This folder contains code for events involving the Arduino platform. 
 
