@@ -6,7 +6,7 @@ This repository is a public archive of previous projects.
 
 ## ISEF 2023
 
-![version](https://img.shields.io/badge/release-v2.0.0-blue)
+![version](https://img.shields.io/badge/release-v3.0.0-blue)
 ![python-versions](https://img.shields.io/badge/python-3.9_%7C_3.10_%7C_3.11-limegreen)
 
 Various project files for 2022-2023 Science Fair. 
