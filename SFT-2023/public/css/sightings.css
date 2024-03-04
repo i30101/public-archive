@@ -1,0 +1,21 @@
+.sighting {
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.sighting-title {
+    font-size: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 900;
+}
+
+.sighting-coords {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.sighting-text {
+    font-family: 'Barlow', sans-serif;
+}

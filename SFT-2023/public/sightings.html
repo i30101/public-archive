@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvasiGo</title>
+    <link rel="icon" type="image/x-icon" href="assets/leaf.png">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/sightings.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <span class="material-symbols-outlined" id="icon">spa</span>
+                InvasiGo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="upload.html">Upload</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="sightings.html">Sightings</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="map.html">Map</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro section -->
+    <div class="container" id="intro-section">
+        <div class="row" id="intro-row">
+            <div class="col-xs-12 col-sm-6 col-md-8" id="intro-titlebox">
+                <h1 class="intro-box" id="page-title">Recent Sightings</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container section-body" id="components">
+        <div class="sighting">
+            <h3 class="sighting-title">Sighting: Hedera helix (European Ivy)</h3>
+            <div class="sighting-coords">Location of sighting: (38.818127, -77.247184)</div>
+            <div class="sighting-text">Hedera helix, the common ivy, English ivy, European ivy, or just ivy, is a species of flowering plant in the family Araliaceae, native to most of Europe and western Asia. A rampant, clinging evergreen vine, it is a familiar sight in gardens, waste spaces, on walls, tree trunks and in wild areas across its native habitat. As a result of its hardy nature, and its tendency to grow readily without human assistance, English ivy has attained popularity as an ornamental plant, and escaped plants have led to naturalisations outside its native range.
+            </div>
+        </div>
+        <div class="sighting">
+            <h3 class="sighting-title">Sighting: Lonicera japonica (Japanese Honeysuckle)</h3>
+            <div class="sighting-coords">Location of sighting: (38.818069, -77.248500)</div>
+            <div class="sighting-text">Lonicera japonica, known as Japanese honeysuckle and golden-and-silver honeysuckle, is a species of honeysuckle native to eastern Asia. It is often grown as an ornamental plant, but has become an invasive species in a number of countries. Japanese honeysuckle is used in traditional Chinese medicine.</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container" id="footer">
+        <footer class="py-3 my-4" id="footer-sub">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-tiem"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+            <li class="nav-item"><a href="https://github.com/i30101/SFT-2023.git" class="nav-link px-2 text-muted">GitHub</a></li>
+        </ul>
+        <p class="text-center text-muted" id="copyright">© 2023 Andrew Kim, Hailey Pan, Matthew Lee, and Samsung Solve for Tomorrow</p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
