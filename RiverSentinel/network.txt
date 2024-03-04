@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt full-upgrade
+sudo apt install rfkill
+sudo rfkill block wifi
+sudo rfkill unblock wifi
