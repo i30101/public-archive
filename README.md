@@ -66,9 +66,11 @@ Files for RiverSentinel: a project to enhance water quality monitoring
 ![version](https://img.shields.io/badge/release-v1.1.0-blue)
 ![Boostrap](https://img.shields.io/badge/Bootstrap-v5.3.1-purple)
 
-### Components
-
 2022-2023 Samsung Solve for Tomorrow Challenge submission files
+
+### Components
+- InvasiGo website
+- Firebase
 
 ### Dependencies
 ![Browsersync](https://img.shields.io/badge/Browsersync-v2.29.3-red)
