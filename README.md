@@ -79,3 +79,19 @@ Recommended tool: `browsersync` for real-time front-end development
 - Enter `npm install -g browsersync` to install
 - Learn more at the [Browsersync](https://browsersync.io/) site
 - Deploy locally using `browser-sync start --server --files "**/*"`
+
+<br><br>
+
+
+## Woodson Science Olympiad archives
+
+### woodsonscioly-draft
+Initial Woodson Science Olympiad draft, never deployed
+
+
+### woodsonscioly-fragments
+Deprecated parts of Woodson Science Olympiad website that were at some point deployed
+
+
+### woodsonscioly-testing
+Deprecated website files for 2022-2023 season tests
