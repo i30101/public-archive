@@ -83,7 +83,7 @@ Recommended tool: `browsersync` for real-time front-end development
 <br><br>
 
 
-## Woodson Science Olympiad archives
+## Woodson Science Olympiad Archives
 
 ### woodsonscioly-draft
 Initial Woodson Science Olympiad draft, never deployed
